@@ -9,3 +9,7 @@ create table blog.post(
 );
 
 select * from blog.post;
+
+insert into blog.post (title, content) values ('Rest API: Métodos', '...');
+insert into blog.post (title, content) values ('Rest API: Introdução', '...');
+insert into blog.post (title, content) values ('Rest API: Documentação', '...');

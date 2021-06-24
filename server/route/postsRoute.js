@@ -1,8 +1,10 @@
-const express = require('express');
-const router = express.Router();
+const express = require('express'); 
+const router = express.Router(); //
+const postsService = require('../service/postService');
 
 router.get('/posts', async function (req, res) {
-    res.end();
+    const posts = await postsService.getPosts();
+    res.json(posts);
 });
 router.get('/posts/:id', async function (req, res) {
 

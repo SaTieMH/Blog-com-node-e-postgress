@@ -1,0 +1,28 @@
+{
+  "name": "new-blog",
+  "version": "1.0.0",
+  "description": "Blog\r ------------\r Node.js + Postgres",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.5",
+    "pg": "^8.6.0",
+    "pg-promise": "^10.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --env node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaTieMH/Blog-com-node-e-postgress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaTieMH/Blog-com-node-e-postgress/issues"
+  },
+  "homepage": "https://github.com/SaTieMH/Blog-com-node-e-postgress#readme"
+}
