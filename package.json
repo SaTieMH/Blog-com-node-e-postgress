@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --env node"
+    "test": "jest --env node --detectOpenHandles"
   },
   "repository": {
     "type": "git",
